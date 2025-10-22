@@ -1,0 +1,36 @@
+:root {
+
+  --primary: #050505;
+  --secondary: #0f1117;
+  --accent: #BFA3FF;
+  --accent-light: #E8DFFF;
+  --accent-dark: #8F75F0;
+
+  --text: #F9FAFB;
+  --text-muted: #9CA3AF;
+  --text-light: #E5E7EB;
+
+  --border: #2C3545;
+  --card-bg: rgba(26, 34, 46, 0.4); 
+  
+  /* Typography */
+  --font-main: 'Inter', sans-serif;
+  
+  /* Spacing */
+  --section-padding: 90px 0;
+  --container-width: 1200px;
+  --border-radius: 12px;
+  --border-radius-lg: 20px;
+  
+  /* Effects */
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.5);
+  --glass: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 60px 0;
+  }
+}
